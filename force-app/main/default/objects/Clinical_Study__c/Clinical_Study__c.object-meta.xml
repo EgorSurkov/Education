@@ -149,12 +149,12 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <label>Clinical Study</label>
     <nameField>
-        <displayFormat>CS-{000}</displayFormat>
+        <displayFormat>CS-{0000}</displayFormat>
         <label>Clinical Study Name</label>
         <type>AutoNumber</type>
     </nameField>

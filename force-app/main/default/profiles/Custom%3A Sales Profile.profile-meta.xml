@@ -3,7 +3,22 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Study_Participant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Study_Participant__c.Clinical_Study__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Study_Participant__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Study_Participant__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15,8 +30,19 @@
         <layout>Clinical_Study__c-Clinical Study Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contact-Contact %28Sales%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Study_Participant__c-Study Participant Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>Clinical_Study__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Study_Participant__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

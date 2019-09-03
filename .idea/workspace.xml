@@ -2,18 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="770d3755-077f-463d-bd82-4a2986b76e36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/StudyParticipantTriggerHandler.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/StudyParticipantTriggerHandler.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Triggers/Study_Participant.trigger" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Triggers/Study_Participant.trigger-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/CurrentStudyTriggerHandler.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/CurrentStudyTriggerHandler.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/classes/Batch_DeleteOldParticipants.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/classes/Batch_DeleteOldParticipants.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/classes/Batch_SetAccountDescription.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/classes/Batch_SetAccountDescription.cls-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/classes/ScheduleUpdateAccountsDescription.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/classes/ScheduleUpdateAccountsDescription.cls-meta.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IlluminatedCloud/ctedu/OfflineSymbolTable.zip" beforeDir="false" afterPath="$PROJECT_DIR$/IlluminatedCloud/ctedu/OfflineSymbolTable.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/StudyParticipantTriggerHandler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/StudyParticipantTriggerHandler.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Triggers/Study_Participant.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Triggers/Study_Participant.trigger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/layouts/Study_Participant__c-Study Participant Layout.layout-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/layouts/Study_Participant__c-Study Participant Layout.layout-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/objects/Clinical_Study__c/Clinical_Study__c.object-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Clinical_Study__c/Clinical_Study__c.object-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/objects/Study_Participant__c/fields/Study_Participant_Key__c.field-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Study_Participant__c/fields/Study_Participant_Key__c.field-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Admin.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Admin.profile-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="education" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Q5oMiVri38k9v3T3Zx8rE1Wubc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -74,7 +92,9 @@
       <workItem from="1567069798928" duration="2033000" />
       <workItem from="1567071839876" duration="1736000" />
       <workItem from="1567426694831" duration="6852000" />
-      <workItem from="1567434420761" duration="315000" />
+      <workItem from="1567434420761" duration="3949000" />
+      <workItem from="1567440041059" duration="11929000" />
+      <workItem from="1567522543918" duration="3406000" />
     </task>
     <servers />
   </component>
