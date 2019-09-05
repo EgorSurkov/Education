@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="770d3755-077f-463d-bd82-4a2986b76e36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/Tests/classes/StudyParticipanKey.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/Tests/classes/StudyParticipanKey.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/Tests/classes/StudyParticipantFilter.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/batch-lesson/Tests/classes/StudyParticipantFilter.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/default/objects/Clinical_Study__c/fields/Title__c.field-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/lightning-component-lesson/classes/StudyParticipantFilter.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/lightning-component-lesson/classes/StudyParticipantFilter.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/lightning-component-lesson/tests/classes/Test_StudyParticipantFilter.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/lightning-component-lesson/tests/classes/Test_StudyParticipantFilter.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/PaginationData.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/PaginationData.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/SearchFilter.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/SearchFilter.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/searchResponse.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/searchResponse.cls-meta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/searchService.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/force-app/main/search-frameWork/classes/searchService.cls-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IlluminatedCloud/ctedu/OfflineSymbolTable.zip" beforeDir="false" afterPath="$PROJECT_DIR$/IlluminatedCloud/ctedu/OfflineSymbolTable.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/StudyParticipantTriggerHandler.cls" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Classes/StudyParticipantTriggerHandler.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Triggers/Study_Participant.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/Triggers Lesson/Triggers/Study_Participant.trigger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/layouts/Clinical_Study__c-Clinical Study Layout.layout-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/layouts/Clinical_Study__c-Clinical Study Layout.layout-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Admin.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Admin.profile-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/CreateNewProject.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1201,7 +1176,7 @@
       <workItem from="1567426694831" duration="6852000" />
       <workItem from="1567434420761" duration="3949000" />
       <workItem from="1567440041059" duration="11929000" />
-      <workItem from="1567522543918" duration="22060000" />
+      <workItem from="1567522543918" duration="22569000" />
     </task>
     <servers />
   </component>
