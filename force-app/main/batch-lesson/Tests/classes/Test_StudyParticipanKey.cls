@@ -3,7 +3,7 @@
  */
 
 @IsTest
-private class StudyParticipanKey {
+private class Test_StudyParticipanKey {
     @IsTest
     static void testBehavior() {
     }

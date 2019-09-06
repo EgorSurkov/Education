@@ -3,7 +3,8 @@
  */
 
 public with sharing class StudyParticipantFilter implements  SearchFilter {
-   @AuraEnabled public String status;
+
+    @AuraEnabled public String status;
     @AuraEnabled public String studyTitleTerm;
 
     public List<String> getFields() {
