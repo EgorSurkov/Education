@@ -11,14 +11,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>open</fullName>
+                <fullName>Open</fullName>
                 <default>false</default>
-                <label>open</label>
+                <label>Open</label>
             </value>
             <value>
-                <fullName>closed</fullName>
+                <fullName>Closed</fullName>
                 <default>false</default>
-                <label>closed</label>
+                <label>Closed</label>
             </value>
         </valueSetDefinition>
     </valueSet>

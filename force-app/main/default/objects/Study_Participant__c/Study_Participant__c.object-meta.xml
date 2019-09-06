@@ -149,12 +149,12 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <label>Study Participant</label>
     <nameField>
-        <displayFormat>SP-{000}</displayFormat>
+        <displayFormat>SP-{0000}</displayFormat>
         <label>Study Participant Name</label>
         <type>AutoNumber</type>
     </nameField>

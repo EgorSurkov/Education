@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <label>Clinical Study</label>
     <referenceTo>Clinical_Study__c</referenceTo>
-    <relationshipLabel>Study Participants (Clinical Study)</relationshipLabel>
-    <relationshipName>Study_Participants1</relationshipName>
+    <relationshipLabel>Study Participants</relationshipLabel>
+    <relationshipName>Study_Participants</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
