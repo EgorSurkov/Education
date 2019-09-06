@@ -1,25 +1,25 @@
 /**
- * Created by Surkov Egor on 05.09.2019.
+ * Created by Egor Surkov on 05.09.2019.
  */
 
 public with sharing class searchService {
+    public static SearchResponse search(SearchFilter searchFilter, PaginationData paginationData) {
+        String countQuery = 'SELECT COUNT()' +
+                ' FROM ' + searchFilter.getSObjectType() + ' ' + searchFilter.getFilterString();
+        System.debug('>>> ' + countQuery);
 
-    public static SearchResponse search(SearchFilter searchFilter, PaginationData paginationData){
-        String countQuery = ' SELECT COUNT() ' + 'FROM ' +
-                        searchFilter.getSObjectType() + ' ' + searchFilter.getFilterString() ;
-        System.debug('>>>> ' + countQuery);
-        Integer allRecordsCount = Database.countQuery(countQuery);
+        Integer allRecordsCount = Database.countQuery( countQuery);
         paginationData.setRecordsCount(allRecordsCount);
 
-        String query =
-                ' SELECT ' + String.join(searchFilter.getFields(), ' , ')  +
+        String query = 'SELECT ' + String.join(searchFilter.getFields(), ',') +
                 ' FROM ' + searchFilter.getSObjectType() + ' ' + searchFilter.getFilterString() +
-                        ' LIMIT ' + paginationData.pageRecordCount +
-                        ' OFFSET ' + paginationData.offSet;
-        System.debug('>>>> ' + query);
+                ' LIMIT ' + paginationData.pageRecordsCount +
+                ' OFFSET ' + paginationData.offset;
+
+        System.debug('>>> ' + query);
 
         List<SObject> pageRecords = Database.query(query);
+
         return new SearchResponse(pageRecords, paginationData);
     }
-
 }

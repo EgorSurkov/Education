@@ -5,33 +5,37 @@
 public with sharing class PaginationData {
     @AuraEnabled public Integer allRecordsCount;
     @AuraEnabled public Integer pagesCount;
-    @AuraEnabled public Integer pageRecordCount;
+    @AuraEnabled public Integer pageRecordsCount;
     @AuraEnabled public Integer currentPage;
     @AuraEnabled public Integer currentPageCount;
-    @AuraEnabled public Integer offSet;
-    @AuraEnabled  public Integer endOffSet;
+    @AuraEnabled public Integer offset;
+    @AuraEnabled public Integer endOffset;
 
-    public PaginationData(){
+    public PaginationData() {
         currentPage = 1;
-        pageRecordCount = 5;
+        pageRecordsCount = 5;
     }
 
     public void setRecordsCount(Integer allRecordsCount) {
         this.allRecordsCount = allRecordsCount;
         recalc();
     }
-    public void recalc(){
-        Decimal  allRecordsCountDecimal = allRecordsCount;
-        Decimal  pageRecordCountDecimal = pageRecordCount;
-        Decimal  allPagesDecimal = allRecordsCountDecimal / pageRecordCountDecimal;
+
+    public void recalc() {
+        System.debug('>>>>> ' + JSON.serializePretty(this));
+        Decimal allRecordsCountDecimal = allRecordsCount;
+        Decimal pageRecordsCountDecimal = pageRecordsCount;
+        Decimal allPagesDecimal = allRecordsCountDecimal/pageRecordsCountDecimal;
         allPagesDecimal = allPagesDecimal.round(System.RoundingMode.UP);
-        pagesCount = allPagesDecimal == 0 ? 1 : allPagesDecimal.intValue();
-        if(currentPage > pagesCount) currentPage = pagesCount;
-        offSet = (currentPage - 1) * pageRecordCount;
-        endOffSet = offSet + pageRecordCount;
+        pagesCount = allPagesDecimal.intValue() == 0 ? 1 : allPagesDecimal.intValue();
 
-        if(endOffSet > allRecordsCount) endOffSet = allRecordsCount;
-        currentPageCount = endOffSet - offSet;
+        if(currentPage > allPagesDecimal) currentPage = pagesCount;
 
+        offset = (currentPage - 1) * pageRecordsCount;
+        endOffset = offset + pageRecordsCount;
+        if(endOffset > allRecordsCount) endOffset = allRecordsCount;
+
+        currentPageCount = endOffset - offset;
+        System.debug('>>>>> ' + JSON.serializePretty(this));
     }
 }
