@@ -13,6 +13,6 @@
     <!-- Component body: -->
     <lightning:card title="Study Participant Panel">
         <c:StudyParticipantFilter filter="{!v.filter}" onchange="{!c.updateTable}"/>
-        <!--c:Pagination pagination="{!v.pagination}" onchange="{!c.updateTable}"/-->
+        <c:Pagination pagination="{!v.pagination}" onchange="{!c.updateTable}"/>
     </lightning:card>
 </aura:component>
