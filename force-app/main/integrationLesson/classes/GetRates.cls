@@ -21,7 +21,7 @@ public with sharing class GetRates extends RemoteCall {
         return null;
     }
     protected override Object parseResponse(String responseBody) {
-        GetRatesResponse response = (GetRatesResponse) JSON.deserialize(responseBody, GetRatesResponse.class);
+        GetRatesResponse response = (GetRatesResponse)JSON.deserialize(responseBody, GetRatesResponse.class);
         return response.rates;
     }
 }

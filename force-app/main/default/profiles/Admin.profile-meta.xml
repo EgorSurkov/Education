@@ -17,7 +17,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>GetRatesSimple</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PaginationData</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PlatformEventRaise</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -42,6 +50,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SearchFilter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StreamingAPIController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -77,6 +89,16 @@
         <editable>true</editable>
         <field>Clinical_Study__c.Title__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Cloud_News__e.Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Cloud_News__e.Oppid__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -218,6 +240,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Cloud_News__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Exchange_Rate__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -239,6 +270,10 @@
         <object>Study_Participant__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+        <apexPage>ApiTestPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <tabVisibilities>
         <tab>Clinical_Study__c</tab>
         <visibility>DefaultOn</visibility>
